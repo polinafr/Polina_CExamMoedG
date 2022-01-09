@@ -69,5 +69,9 @@ int main()
 	//The test to ensure that if the overflow happened 
 	//in future the program won't generate the same primes in loop
 	notValidLastPrime();
+	
+	//No need to test, for example, negative numbers assignment - the user can't do that because the Prime64Bit uses an unsigned type
+	//Andin any case, the user cant set the values for the prime in any case.
+	//On the other hand, the overflow cases can happen themselves during the program's work.
 	return 0;
 }
